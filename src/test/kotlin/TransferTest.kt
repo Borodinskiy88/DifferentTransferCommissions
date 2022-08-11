@@ -5,11 +5,11 @@ import org.junit.Test
 
 class TransferTest {
 
-    @Test
+    Test
     fun maestroLessLimit() {
         val result = moneyTransfer("Maestro", 70000.00, 10000.00)
 
-        assertEquals(200.0, result)
+        assertEquals(0.0, result)
     }
 
     @Test
